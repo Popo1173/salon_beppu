@@ -250,6 +250,7 @@ $copy-maintext : "ヒラギノ明朝 ProN", "HG明朝E", "ＭＳ Ｐ明朝", "MS
 footer {
   padding: 170px 10px 0px;
   .footer-inner {
+    position: relative;
     @include content-inner;
     padding: 60px 0;
     border-top: 1px solid #00000038;
@@ -278,15 +279,15 @@ footer {
     }
     button {
       position: absolute;
-      right: 100px;
+      right: 0;
       max-width: 184px;
       width: 100%;
-      margin-left: auto;
       padding: 10px;
       background-color: #fff;
       border: 1px solid #707070;
       font-size: 1.8rem;
       color: #707070;
+      text-align: center;
       :hover {
         background-color: #707070;
         color: #fff;

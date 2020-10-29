@@ -442,6 +442,7 @@ nav {
 footer {
   padding: 170px 10px 0px; }
   footer .footer-inner {
+    position: relative;
     max-width: 1080px;
     width: 100%;
     margin: 0 auto;
@@ -469,15 +470,15 @@ footer {
         font-size: 2.0rem; }
     footer .footer-inner button {
       position: absolute;
-      right: 100px;
+      right: 0;
       max-width: 184px;
       width: 100%;
-      margin-left: auto;
       padding: 10px;
       background-color: #fff;
       border: 1px solid #707070;
       font-size: 1.8rem;
-      color: #707070; }
+      color: #707070;
+      text-align: center; }
       footer .footer-inner button :hover {
         background-color: #707070;
         color: #fff; }
